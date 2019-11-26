@@ -14,3 +14,12 @@ tape("Addition function works as expected", t => {
   );
   t.end();
 });
+
+tape("Multiplication function works as expected", t => {
+  t.equals(
+    hello(2, 2),
+    4,
+    "Additon function should return 2 when passed 2 & 2"
+  );
+  t.end();
+});
