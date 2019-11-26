@@ -8,9 +8,18 @@ tape("Tape works as expected", t => {
 
 tape("Addition function works as expected", t => {
   t.equals(
-    hello(1, 1),
+    hello.add(1, 1),
     2,
     "Addition function should return 2 when passed 1 & 1"
+  );
+  t.end();
+});
+
+tape("Addition function works as expected", t => {
+  t.equals(
+    hello.division(4, 2),
+    2,
+    "Addition function should return 2 when passed 2 & 4"
   );
   t.end();
 });
