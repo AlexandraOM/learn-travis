@@ -15,6 +15,14 @@ tape("Addition function works as expected", t => {
   t.end();
 });
 
+tape("division function works as expected", t => {
+  t.equals(
+    hello.division(4, 2),
+    2,
+    "division function should return 2 when passed 4 & 2"
+  );
+  t.end();
+});
 tape("Subtract function works as expected", t => {
   t.equals(
     hello.sub(2, 1),
