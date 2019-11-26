@@ -1,5 +1,7 @@
 const add = (a, b) => a + b;
+const multiply = (a, b) => a * b;
+
 const sub = (a, b) => a - b;
 const division = (a, b) => a / b;
 
-module.exports = { add, sub, division };
+module.exports = { add, sub, division, multiply };
