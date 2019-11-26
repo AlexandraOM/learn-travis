@@ -15,11 +15,19 @@ tape("Addition function works as expected", t => {
   t.end();
 });
 
-tape("Addition function works as expected", t => {
+tape("division function works as expected", t => {
   t.equals(
     hello.division(4, 2),
     2,
-    "Addition function should return 2 when passed 2 & 4"
+    "division function should return 2 when passed 4 & 2"
+  );
+  t.end();
+});
+tape("Subtract function works as expected", t => {
+  t.equals(
+    hello.sub(2, 1),
+    1,
+    "Subtract function should return 1 when passed 2 and 1"
   );
   t.end();
 });
